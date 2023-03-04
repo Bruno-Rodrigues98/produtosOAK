@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.tituloPrincipal{
+    color: #17814C
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input, select, textarea {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	margin-top: 10px;
+	background-color: #17814C;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #17814C;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #17814C;
+}
+
+#btn-novo-produto {
+	margin-top: 20px;
+}
